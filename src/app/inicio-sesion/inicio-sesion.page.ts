@@ -10,6 +10,11 @@ export class InicioSesionPage implements OnInit {
 
   constructor(private router:Router) { }
 
+  goToMenuA(){
+    this.router.navigate(['/menu-alumno'])
+
+  }
+
   ngOnInit() {
   }
 
